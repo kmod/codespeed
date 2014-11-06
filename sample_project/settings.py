@@ -2,8 +2,9 @@
 # Django settings for a speedcenter project.
 import os
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
+ALLOWED_HOSTS = ["localhost", "pyston.org", "speed.pyston.org"]
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 TOPDIR = os.path.split(BASEDIR)[1]
